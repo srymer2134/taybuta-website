@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Taybuta — Claude Code specialists</title>
+    <meta name="description" content="A three-founder studio specializing in Claude Code development and open-source software. We build AI-native products for ourselves, our clients, and the community." />
+
+    <meta property="og:title" content="Taybuta — Claude Code specialists" />
+    <meta property="og:description" content="Three founders. Claude Code experts. Building AI-native software in the open." />
+    <meta property="og:url" content="https://taybuta.com" />
+    <meta property="og:type" content="website" />
+    <meta name="theme-color" content="#0A0A0A" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%23FAFAFA'/%3E%3Ctext x='50%25' y='68%25' text-anchor='middle' font-family='Inter,sans-serif' font-size='20' font-weight='900' fill='%230A0A0A'%3ET%3C/text%3E%3C/svg%3E" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+
+    <!-- ── Nav ──────────────────────────────────────────── -->
+    <header class="nav">
+      <div class="nav__inner">
+        <a class="brand" href="/" aria-label="Taybuta home">
+          <span class="brand__mark" aria-hidden="true">T</span>
+          <span class="brand__word">Taybuta</span>
+        </a>
+        <nav class="nav__links" aria-label="Primary">
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#founders">Founders</a>
+          <a href="#opensource">Open source</a>
+        </nav>
+        <div class="nav__cta">
+          <a class="btn btn--sm btn--primary" href="#contact">Start a project</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <!-- ── Hero ─────────────────────────────────────────── -->
+      <section class="hero">
+        <div class="hero__bg" aria-hidden="true">
+          <div class="hero__glow hero__glow--a"></div>
+          <div class="hero__glow hero__glow--b"></div>
+          <div class="hero__grid"></div>
+        </div>
+
+        <div class="wrap hero__wrap">
+          <div class="pill">
+            <span class="pill__dot"></span>
+            <span>Now booking Q3/Q4 2026</span>
+          </div>
+
+          <h1 class="hero__title">
+            Ship AI-native software<br />
+            <span class="hero__accent">with people who live in Claude Code.</span>
+          </h1>
+
+          <p class="hero__sub">
+            Taybuta is a three-founder studio that ships products with
+            Claude Code as our daily driver. We build for ourselves,
+            take on a handful of client engagements each year, and put
+            the tools we make back into open source.
+          </p>
+
+          <div class="hero__ctas">
+            <a class="btn btn--primary btn--lg" href="#contact">
+              Start a project
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#work">See our work</a>
+          </div>
+
+          <!-- Terminal ornament -->
+          <div class="terminal">
+            <div class="terminal__chrome">
+              <span class="terminal__dot terminal__dot--r"></span>
+              <span class="terminal__dot terminal__dot--y"></span>
+              <span class="terminal__dot terminal__dot--g"></span>
+              <span class="terminal__title">~/taybuta</span>
+            </div>
+            <div class="terminal__body">
+              <div class="terminal__line"><span class="terminal__prompt">$</span> <span class="terminal__cmd">claude</span> <span class="terminal__arg">"build the next thing"</span></div>
+              <div class="terminal__line terminal__line--out">→ Spawning agent · reading context · planning...</div>
+              <div class="terminal__line terminal__line--out">✓ Ready.</div>
+              <div class="terminal__line"><span class="terminal__prompt">$</span> <span class="terminal__caret">▊</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Trust bar / tech stack ───────────────────────── -->
+      <section class="trust">
+        <div class="wrap trust__wrap">
+          <p class="trust__label">Our daily stack</p>
+          <div class="trust__logos">
+            <span class="trust__item">Claude Code</span>
+            <span class="trust__sep">·</span>
+            <span class="trust__item">MCP</span>
+            <span class="trust__sep">·</span>
+            <span class="trust__item">TypeScript</span>
+            <span class="trust__sep">·</span>
+            <span class="trust__item">Flutter</span>
+            <span class="trust__sep">·</span>
+            <span class="trust__item">Supabase</span>
+            <span class="trust__sep">·</span>
+            <span class="trust__item">Cloudflare</span>
+            <span class="trust__sep">·</span>
+            <span class="trust__item">Railway</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Services (bento) ─────────────────────────────── -->
+      <section id="services" class="section">
+        <div class="wrap">
+          <div class="section__head">
+            <p class="eyebrow">Services</p>
+            <h2 class="section__title">What we do for clients</h2>
+            <p class="section__sub">
+              Four ways to work with us. Every engagement is run by
+              the founders — no handoffs, no offshore teams, no
+              account managers between you and the people writing
+              the code.
+            </p>
+          </div>
+
+          <div class="bento">
+            <div class="card card--wide">
+              <div class="card__ico">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M4 6h16v12H4z" stroke="currentColor" stroke-width="1.5"/><path d="M8 10l2 2-2 2M12 14h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <div class="card__num">01</div>
+              <h3 class="card__title">Claude Code enablement</h3>
+              <p class="card__body">
+                Deploy Claude Code across your team. Set up CLAUDE.md,
+                skills, MCP servers, custom agents, and the guardrails
+                that make it safe for production work. Includes on-site
+                training for engineers and PMs.
+              </p>
+              <p class="card__tag">1–3 week engagements</p>
+            </div>
+
+            <div class="card">
+              <div class="card__ico">
+                <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8" stroke="currentColor" stroke-width="1.5"/><path d="M12 8v4l3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <div class="card__num">02</div>
+              <h3 class="card__title">AI product engineering</h3>
+              <p class="card__body">
+                0→1 mobile + web software with LLMs and agents at the
+                core. Retrieval, evals, agent orchestration, the whole
+                loop.
+              </p>
+              <p class="card__tag">4–12 week projects</p>
+            </div>
+
+            <div class="card">
+              <div class="card__ico">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M12 3l9 5-9 5-9-5 9-5z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M3 13l9 5 9-5M3 17l9 5 9-5" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+              </div>
+              <div class="card__num">03</div>
+              <h3 class="card__title">Custom MCP servers</h3>
+              <p class="card__body">
+                Wire your internal systems into Claude Code and other
+                MCP-native tools. Auth-safe, self-hosted, and shipped
+                with the docs your team will actually read.
+              </p>
+              <p class="card__tag">2–6 week builds</p>
+            </div>
+
+            <div class="card card--wide">
+              <div class="card__ico">
+                <svg viewBox="0 0 24 24" fill="none"><path d="M9 3v2M15 3v2M12 20v-4M4 8h16M6 4h12a2 2 0 012 2v14a2 2 0 01-2 2H6a2 2 0 01-2-2V6a2 2 0 012-2z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+              </div>
+              <div class="card__num">04</div>
+              <h3 class="card__title">Technical advisory</h3>
+              <p class="card__body">
+                Fractional engineering leadership for founders and
+                operators. Architecture reviews, hiring, AI strategy,
+                honest gut-checks. Short retainers, no long lock-ins.
+              </p>
+              <p class="card__tag">Monthly retainer or one-off</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Work ─────────────────────────────────────────── -->
+      <section id="work" class="section section--alt">
+        <div class="wrap">
+          <div class="section__head">
+            <p class="eyebrow">Work</p>
+            <h2 class="section__title">Products we ship</h2>
+            <p class="section__sub">
+              What Taybuta has built for itself. Client work is
+              private unless the client wants credit.
+            </p>
+          </div>
+
+          <a class="work" href="https://bagpipegolf.com" target="_blank" rel="noopener">
+            <div class="work__side">
+              <div class="work__badge">
+                <span class="dot dot--live"></span>
+                Live
+              </div>
+              <p class="work__year">2026 —</p>
+            </div>
+            <div class="work__main">
+              <h3 class="work__title">Bagpipe Golf</h3>
+              <p class="work__meta">Golf · iOS · Tournament software</p>
+              <p class="work__desc">
+                An on-course caddie, scorecard, and side-bet engine
+                for golfers and tournament directors. Thirty side
+                games with full settlement math, flighted tournaments,
+                and a clubhouse-TV leaderboard — built by golfers who
+                got tired of doing skins on a napkin.
+              </p>
+              <span class="work__cta">
+                bagpipegolf.com
+                <svg width="14" height="14" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </span>
+            </div>
+          </a>
+
+          <div class="work work--placeholder">
+            <div class="work__side">
+              <div class="work__badge work__badge--soon">
+                <span class="dot dot--soon"></span>
+                In dev
+              </div>
+              <p class="work__year">Next</p>
+            </div>
+            <div class="work__main">
+              <h3 class="work__title work__title--muted">Next project</h3>
+              <p class="work__meta">Coming when it's ready</p>
+              <p class="work__desc work__desc--muted">
+                We're heads-down on the next one. If it's worth
+                shipping, it'll show up here.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Founders ─────────────────────────────────────── -->
+      <section id="founders" class="section">
+        <div class="wrap">
+          <div class="section__head">
+            <p class="eyebrow">Founders</p>
+            <h2 class="section__title">Three people, one team.</h2>
+            <p class="section__sub">
+              No account managers, no offshore team. The people who
+              take the call are the people who ship the code.
+            </p>
+          </div>
+
+          <div class="founders">
+            <div class="founder">
+              <div class="founder__avatar founder__avatar--a">S</div>
+              <p class="founder__name">Sam</p>
+              <p class="founder__role">Product & engineering</p>
+            </div>
+            <div class="founder">
+              <div class="founder__avatar founder__avatar--b">C</div>
+              <p class="founder__name">Casey</p>
+              <p class="founder__role">Design & brand</p>
+            </div>
+            <div class="founder">
+              <div class="founder__avatar founder__avatar--c">P</div>
+              <p class="founder__name">Patrick</p>
+              <p class="founder__role">Backend & infra</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Open source ──────────────────────────────────── -->
+      <section id="opensource" class="section section--alt">
+        <div class="wrap">
+          <div class="section__head">
+            <p class="eyebrow">Open source</p>
+            <h2 class="section__title">Built in the open.</h2>
+            <p class="section__sub">
+              We ship the tools we wish existed. Sponsor them, adopt
+              them, contribute back — or just take them.
+            </p>
+          </div>
+
+          <div class="os-grid">
+            <div class="os-card">
+              <div class="os-card__head">
+                <span class="os-card__type">MCP server</span>
+                <span class="os-card__status">Coming soon</span>
+              </div>
+              <h3 class="os-card__title">taybuta-mcp</h3>
+              <p class="os-card__desc">
+                Ergonomic MCP scaffolding for Claude Code teams —
+                auth, tool registry, and safe defaults out of the box.
+              </p>
+            </div>
+
+            <div class="os-card">
+              <div class="os-card__head">
+                <span class="os-card__type">Claude skill pack</span>
+                <span class="os-card__status">Coming soon</span>
+              </div>
+              <h3 class="os-card__title">skill-kit</h3>
+              <p class="os-card__desc">
+                A starter library of Claude Code skills for common
+                team workflows — status reports, code review, ops
+                runbooks.
+              </p>
+            </div>
+
+            <div class="os-card os-card--muted">
+              <div class="os-card__head">
+                <span class="os-card__type">More</span>
+                <span class="os-card__status">In dev</span>
+              </div>
+              <h3 class="os-card__title os-card__title--muted">More coming</h3>
+              <p class="os-card__desc os-card__desc--muted">
+                Watch this space — or the Taybuta GitHub org, once we
+                publish it.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Stats strip ──────────────────────────────────── -->
+      <section class="stats-strip">
+        <div class="wrap">
+          <div class="stats-strip__grid">
+            <div>
+              <div class="big-num">3</div>
+              <p class="big-label">Founders</p>
+            </div>
+            <div>
+              <div class="big-num">1</div>
+              <p class="big-label">Product shipped</p>
+            </div>
+            <div>
+              <div class="big-num">3–5</div>
+              <p class="big-label">Clients per year</p>
+            </div>
+            <div>
+              <div class="big-num">100%</div>
+              <p class="big-label">Self-funded</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ── Contact CTA ──────────────────────────────────── -->
+      <section id="contact" class="section section--cta">
+        <div class="wrap cta__wrap">
+          <p class="eyebrow eyebrow--center">Get in touch</p>
+          <h2 class="cta__title">Have something you'd like us to build?</h2>
+          <p class="cta__sub">
+            Send a paragraph on what you're working on. If it's a fit
+            we'll set up a call within the week. If not, we'll tell
+            you honestly — and often point you at someone better.
+          </p>
+          <a class="btn btn--primary btn--lg" href="mailto:hello@taybuta.com?subject=Project%20inquiry">
+            hello@taybuta.com
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true"><path d="M6 4l4 4-4 4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </a>
+          <p class="cta__note">
+            Or email us direct — we read every message.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- ── Footer ───────────────────────────────────────── -->
+    <footer class="foot">
+      <div class="wrap foot__inner">
+        <div class="foot__brand">
+          <div class="brand">
+            <span class="brand__mark brand__mark--sm" aria-hidden="true">T</span>
+            <span class="brand__word">Taybuta</span>
+          </div>
+          <p class="foot__tag">Claude Code specialists & open-source studio.<br />Founded 2026. Small, on purpose.</p>
+        </div>
+
+        <div class="foot__cols">
+          <div class="foot__col">
+            <p class="foot__label">Services</p>
+            <a href="#services">Claude Code enablement</a>
+            <a href="#services">AI product engineering</a>
+            <a href="#services">MCP servers</a>
+            <a href="#services">Advisory</a>
+          </div>
+          <div class="foot__col">
+            <p class="foot__label">Studio</p>
+            <a href="#work">Work</a>
+            <a href="#founders">Founders</a>
+            <a href="#opensource">Open source</a>
+          </div>
+          <div class="foot__col">
+            <p class="foot__label">Contact</p>
+            <a href="mailto:hello@taybuta.com">hello@taybuta.com</a>
+          </div>
+        </div>
+      </div>
+      <div class="foot__bottom">
+        <div class="wrap foot__bottom-inner">
+          <span>© 2026 Taybuta</span>
+          <span>Independent, on purpose.</span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
