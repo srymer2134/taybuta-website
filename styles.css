@@ -636,6 +636,13 @@ a:hover { color: var(--accent); }
   text-transform: uppercase;
 }
 
+.founder__bio {
+  color: var(--ink-2);
+  font-size: 15px;
+  line-height: 1.6;
+  margin: 14px 0 0;
+}
+
 /* ── Open source grid ─────────────────────────────────── */
 .os-grid {
   display: grid;
