@@ -833,3 +833,31 @@ a:hover { color: var(--accent); }
   .btn:hover, .card:hover, .work:hover,
   .founder:hover, .os-card:hover { transform: none; }
 }
+
+/* Founder highlights — left-aligned under the centred bio */
+.founder__points {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 16px 0 0;
+  border-top: 1px solid var(--border);
+  text-align: left;
+  display: grid;
+  gap: 10px;
+}
+.founder__points li {
+  position: relative;
+  padding-left: 16px;
+  color: var(--ink-2);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.founder__points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent, currentColor);
+}
