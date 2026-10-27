@@ -416,10 +416,11 @@ a:hover { color: var(--accent); }
 }
 .bento .card { grid-column: span 1; }
 .bento .card--wide { grid-column: span 2; }
+.bento .card--full { grid-column: 1 / -1; }
 
 @media (max-width: 960px) {
   .bento { grid-template-columns: 1fr; }
-  .bento .card, .bento .card--wide { grid-column: 1; }
+  .bento .card, .bento .card--wide, .bento .card--full { grid-column: 1; }
 }
 
 .card {
@@ -833,3 +834,50 @@ a:hover { color: var(--accent); }
   .btn:hover, .card:hover, .work:hover,
   .founder:hover, .os-card:hover { transform: none; }
 }
+
+/* Founder highlights — left-aligned under the centred bio */
+.founder__points {
+  list-style: none;
+  margin: 18px 0 0;
+  padding: 16px 0 0;
+  border-top: 1px solid var(--border);
+  text-align: left;
+  display: grid;
+  gap: 10px;
+}
+.founder__points li {
+  position: relative;
+  padding-left: 16px;
+  color: var(--ink-2);
+  font-size: 14px;
+  line-height: 1.5;
+}
+.founder__points li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent, currentColor);
+}
+
+.founder__title {
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0 0 8px;
+}
+.founder__label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ink-3);
+  text-align: left;
+  margin: 18px 0 0;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+}
+.founder__label + .founder__points { margin-top: 10px; padding-top: 0; border-top: 0; }
