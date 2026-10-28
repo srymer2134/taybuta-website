@@ -586,7 +586,7 @@ a:hover { color: var(--accent); }
 /* ── Founders ─────────────────────────────────────────── */
 .founders {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 24px;
 }
 @media (max-width: 720px) { .founders { grid-template-columns: 1fr; } }
@@ -620,6 +620,7 @@ a:hover { color: var(--accent); }
 .founder__avatar--a { background: linear-gradient(135deg, #F59E0B, #FDE68A); }
 .founder__avatar--b { background: linear-gradient(135deg, #34D399, #A7F3D0); }
 .founder__avatar--c { background: linear-gradient(135deg, #818CF8, #C7D2FE); }
+.founder__avatar--d { background: linear-gradient(135deg, #F472B6, #FBCFE8); }
 
 .founder__name {
   font-size: 18px;
